@@ -52,3 +52,6 @@ data_pandas = pd.DataFrame(data)
 
 # Age 열의 값이 30이상인 모든 행을 선택합니다.
 # print(data_pandas[data_pandas.Age > 30])
+
+import sklearn
+print(sklearn.__version__)
