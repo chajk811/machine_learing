@@ -64,7 +64,7 @@ $ pip install numpy scipy matplotlib ipython scikit-learn pandas pillow
 # 앞으로의 실습에서 기보으로 import 하고 시작
 
 from IPython.display import display
-import numpy as py
+import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import mglearn
