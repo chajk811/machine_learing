@@ -45,15 +45,13 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 
-
-
-df.info()
+`df.info()`
 
 데이터의 타입과 null 개수를 출력한다.
 
 
 
-Unnamed:32 0 non-null float64
+`Unnamed:32 0 non-null float64`
 
 =>RangeIndex:569 인데  non-null 0이므로 전부다 null
 
@@ -61,25 +59,25 @@ id는 필요없는 정보이므로
 
 
 
-df.drop()
+`df.drop()`
 
 데이터프레임에서 특정 데이터를 삭제한다.
 
 
 
-df.map()
+`df.map()`
 
 데이터프레임 안에서 값을 대체하고 싶을 때 사용한다. 복잡한 연산을 할 경우 df.apply()를 사용한다.
 
 
 
-df.describe()
+`df.describe()`
 
 데이터프레임의 개요를 출력한다.
 
 
 
-sns.countplot()
+`sns.countplot()`
 
 데이터의 개수를 출력하는 그래프를 그린다.
 
@@ -89,7 +87,7 @@ ex) sns.countplot(data['diagnosis']) => diagnosis 칼럼의 분포를 그래프�
 
 
 
-train_test_split()
+`train_test_split()`
 
 학습/검증 데이터를 분리한다.
 
@@ -169,7 +167,7 @@ print(sklearn.__version__)
 
 ### cross_validation
 
-![cross_validation](C:\Users\jk\Desktop\machine_learing\02_유방암예측인공지능\cross_validation.png)
+![cross_validation](https://user-images.githubusercontent.com/52685241/71572570-1e466100-2b23-11ea-9a0f-c6c17033618e.png)
 
 
 
