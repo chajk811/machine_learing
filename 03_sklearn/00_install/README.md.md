@@ -88,4 +88,3 @@ print('Package 버전:', Package.__version__)
 ```
 
 버전이 정확히 같아야 하는 것은 아니지만 scikit-learn 은 가능한 최신버전 0.20.2 이상
-

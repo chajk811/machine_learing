@@ -1,6 +1,4 @@
-
-
-Diagnosis
+### Diagnosis
 
 - Malignant 악성
 
@@ -10,13 +8,11 @@ Diagnosis
 
 
 
-패키지
+### 패키지
 
 numpy => 선형대수, 숫자에 관련된 행렬을 연산하기 위해여 사용
 
 pandas => csv를 읽기 위해
-
-
 
 matplotlib.pyplot
 
@@ -168,6 +164,12 @@ $ pip install scikit-learn==0.20.2
 import sklearn
 print(sklearn.__version__)
 ```
+
+
+
+### cross_validation
+
+![cross_validation](C:\Users\jk\Desktop\machine_learing\02_유방암예측인공지능\cross_validation.png)
 
 
 
